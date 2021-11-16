@@ -1,9 +1,9 @@
 const express = require("express");
-const mongojs = require("mongojs");
-const mongoose = require("mongoose");
 const logger = require("morgan");
+const mongoose = require("mongoose");
 const controllers = require("./controllers");
-const path = require("path");
+
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -14,19 +14,14 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const databaseUrl = "workoutTracker";
-const collections = ["workouts"];
-
-const db = mongojs(databaseUrl, collections);
-
-db.on("error", error => {
-  console.log("Database Error:", error);
+mongoose.connect("mongodb://localhost/workout", {
+  useNewUrlParser: true,
+  useFindAndModify: false,
+  useUnifiedTopology: true,
 });
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname + "./public/index.html"));
-});
+app.use(controllers);
 
-app.listen(3000, () => {
-  console.log("App running on port 3000!");
+app.listen(PORT, () => {
+  console.log(`App running on port ${PORT}!`);
 });
