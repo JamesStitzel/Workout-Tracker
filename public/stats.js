@@ -23,6 +23,7 @@ function populateChart(data) {
   const bar = document.querySelector('#canvas2').getContext('2d');
 
   const labels = data.map(({ day }) => {
+    console.log(day);
     const date = new Date(day);
 
     // Use JavaScript's `Intl` object to help format dates
