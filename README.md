@@ -48,16 +48,15 @@ Running seeders/seed.js is only if you want to have a prepopulated database.
 
 Homepage displaying last workout
 
-
+![image](https://user-images.githubusercontent.com/89664909/152631672-7f2825e9-f791-4c69-b5d6-6baf87cd8776.png)
 
 Creating Workouts
 
+![image](https://user-images.githubusercontent.com/89664909/152631691-503fd06c-43de-4a36-bb2a-0937c255719e.png)
 
+Last Workout Summary
 
-
-Last Week's Summary
-
-
+![image](https://user-images.githubusercontent.com/89664909/152631708-193f994b-2dd7-4ef9-95b2-53e5a622b39b.png)
 
 ### Built With
 
