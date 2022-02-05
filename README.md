@@ -37,11 +37,6 @@ Track your workouts with Workout Tracker. The app will keep track of the track, 
 
 Running seeders/seed.js is only if you want to have a prepopulated database.
 
-<p align="center">
-    <a href="https://track-your-fitness.herokuapp.com/"><img src="https://img.shields.io/badge/-👉 See Live Site-success?style=for-the-badge"  alt="Live Site" /></a>
-</p>
-
-
 ## Usage
 
 ### Screeshots
