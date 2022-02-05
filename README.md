@@ -1,21 +1,5 @@
 # Fitness Tracker
 
-</br>
-<p align="center">
-    <img src="https://img.shields.io/github/languages/count/kqarlos/fitness-tracker?style=for-the-badge" alt="Languages" />
-    <img src="https://img.shields.io/github/languages/top/kqarlos/fitness-tracker?style=for-the-badge" alt="Top Language" />
-    <img src="https://img.shields.io/github/languages/code-size/kqarlos/fitness-tracker?style=for-the-badge" alt="Code Size" />
-    <img src="https://img.shields.io/github/repo-size/kqarlos/fitness-tracker?style=for-the-badge" alt="Repo Size" />   
-    <img src="https://img.shields.io/tokei/lines/github/kqarlos/fitness-tracker?style=for-the-badge" alt="Total Lines" />
-    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/express?style=for-the-badge" alt="Express Version" />
-    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/mongoose?style=for-the-badge" alt="Mongoose Version" />
-    <img src="https://img.shields.io/github/package-json/dependency-version/kqarlos/fitness-tracker/morgan?style=for-the-badge" alt="Morgan Version" />
-    <img src="https://img.shields.io/github/last-commit/kqarlos/fitness-tracker?style=for-the-badge" alt="Last Commit" />  
-    <img src="https://img.shields.io/github/issues/kqarlos/fitness-tracker?style=for-the-badge" alt="Issues" />  
-    <img src="https://img.shields.io/github/followers/kqarlos?style=social" alt="Followers" />  
-</p>
-
-
 ## Description
 
 Track your workouts with Workout Tracker. The app will keep track of the track, count yours curls and benchmark your bench presses.
