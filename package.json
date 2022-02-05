@@ -9,11 +9,11 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "",
+  "author": "James Stitzel",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "mongoose": "^5.3.16",
+    "mongoose": "^5.10.5",
     "morgan": "^1.9.1"
   }
 }
