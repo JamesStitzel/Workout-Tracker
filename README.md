@@ -54,5 +54,5 @@ Last Workout Summary
 
 - James Stitzel: [portfolio](https://github.com/JamesStitzel?tab=repositories)
 - :octocat: Github: [JamesStitzel](https://github.com/JamesStitzel)
-- LinkedIn: [carlos-toledo415](https://www.linkedin.com/in/dugan-stitzel/)
+- LinkedIn: [Dugan Stitzel](https://www.linkedin.com/in/dugan-stitzel/)
 
